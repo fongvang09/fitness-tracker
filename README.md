@@ -6,7 +6,7 @@ This fitness tracker app lets a user create, view and track their daily workouts
 
 ## Screenshot
 
-![fitness tracker browser](public\fitnesstracker-ss.JPG)
+![fitness tracker browser](public/fitnesstracker-ss.JPG)
 
 ## Links
 
