@@ -46,7 +46,6 @@ const exerciseSchema = new Schema({
   // cardio: String,
   // distance: String,
   // duration: String,
-  // exercise: String,
   // weight: String, 
   // sets: String, 
   // reps: String, 

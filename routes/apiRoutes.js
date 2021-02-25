@@ -1,5 +1,5 @@
 const exercise = require("../models/exercise");
-const workout = require("../models/workout");
+// const workout = require("../models/workout");
 
 module.exports = function(app) {
 
@@ -11,9 +11,9 @@ module.exports = function(app) {
     res.json(workout);
   });
 
-  // app.get("/api/index", function(req, res) {
-  //   res.json(index);
-  // });
+  app.get("/api/stats", function(req, res) {
+    res.json(stats);
+  });
 
   // app.post("/api/exercise", function(req, res) {
   //   res.json("TESTING");
