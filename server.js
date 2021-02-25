@@ -18,11 +18,11 @@ mongoose.connect(
       useCreateIndex: true,
       useFindAndModify: false
     }
-  );
+);
 
 // routes
-app.use(require("./routes/api.js"));
-
+// app.use(require("./routes/apiRoutes.js"));
+require("./routes/htmlRoutes")(app);
 
 // Start the server on the port
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));

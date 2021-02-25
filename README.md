@@ -10,6 +10,6 @@ This fitness tracker app lets a user create, view and track their daily workouts
 
 ## Links
 
-Heroku: 
+Heroku: https://intense-basin-38628.herokuapp.com/
 
 GitHub: https://github.com/fongvang09/fitness-tracker
